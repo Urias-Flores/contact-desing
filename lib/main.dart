@@ -1,4 +1,4 @@
-import 'package:contact_desing/src/pages/home_page.dart';
+import 'package:contact_desing/src/constants/routes.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,11 +11,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'contact desing',
       theme: ThemeData(
         useMaterial3: true,
       ),
-      home: const Home(title: 'Contacts'),
+      initialRoute: MyRoutes.home.name,
+      routes: routes,
     );
   }
 }

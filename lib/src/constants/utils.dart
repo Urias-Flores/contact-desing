@@ -2,41 +2,49 @@ final List<Map<String, dynamic>> listUsers = [
   {
     "ID": 1,
     "Name": "Federico Lopez",
-    "Username": "FedeLopez"
+    "Username": "FedeLopez",
+    "Phone": "98765414"
   },
   {
     "ID": 2,
     "Name": "Marcos Aurelio",
-    "Username": "MarAur"
+    "Username": "MarAur",
+    "Phone": "34345123"
   },
   {
     "ID": 3,
     "Name": "Mario Ochoa",
-    "Username": "OchoaMario"
+    "Username": "OchoaMario",
+    "Phone": "96961454"
   },
   {
     "ID": 4,
     "Name": "Arturo Mata",
-    "Username": "ArtMata"
+    "Username": "ArtMata",
+    "Phone": "88761452"
   },
   {
     "ID": 5,
     "Name": "Elisa Flores",
-    "Username": "Eli"
+    "Username": "Eli",
+    "Phone": "33332116"
   },
   {
     "ID": 6,
     "Name": "Azalia Meza",
-    "Username": "AzaMeza"
+    "Username": "AzaMeza",
+    "Phone": "97443961"
   },
   {
     "ID": 7,
     "Name": "Abimelec Garcia",
-    "Username": "AbimeGarcia"
+    "Username": "AbimeGarcia",
+    "Phone": "96645312"
   },
   {
     "ID": 8,
     "Name": "Leonel Messi",
-    "Username": "Leo"
+    "Username": "Leo",
+    "Phone": "90908724"
   }
 ];

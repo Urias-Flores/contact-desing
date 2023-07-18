@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:contact_desing/src/constants/utils.dart';
+import 'package:contact_desing/src/widgets/ItemList.dart';
 
 class Home extends StatelessWidget{
   const Home({super.key, required this.title});
@@ -10,23 +12,13 @@ class Home extends StatelessWidget{
       appBar: AppBar(
         title: Text(title),
       ),
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            const Text(
-              'You have pushed the button this many times:',
-            ),
-            Text(
-              'Hola',
-              style: Theme.of(context).textTheme.headlineMedium,
-            ),
-          ],
-        ),
+      body: ListView.builder(
+          itemCount: listUsers.length,
+          itemBuilder: (BuildContext context, int index) => ItemList(user: listUsers[index])
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
-        tooltip: 'Increment',
+        tooltip: 'Add contact',
         child: const Icon(Icons.add),
       ),
     );
