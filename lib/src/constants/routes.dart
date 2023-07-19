@@ -7,6 +7,6 @@ enum MyRoutes {
 }
 
 final routes = {
-  MyRoutes.home.name: (context) => const Home(title: 'Contactos'),
-  MyRoutes.contact.name: (context) => const Contact(user: {})
+  MyRoutes.home.name: (context) => const Home(title: 'Contacts'),
+  MyRoutes.contact.name: (context) => const Contact()
 };

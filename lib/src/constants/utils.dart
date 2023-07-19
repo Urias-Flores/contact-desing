@@ -1,3 +1,6 @@
+import 'dart:math';
+import 'dart:ui';
+
 final List<Map<String, dynamic>> listUsers = [
   {
     "ID": 1,
@@ -48,3 +51,15 @@ final List<Map<String, dynamic>> listUsers = [
     "Phone": "90908724"
   }
 ];
+
+Color generateRandomColor() {
+  Random random = Random();
+
+  // Genera valores aleatorios para los componentes rojo, verde y azul del color
+  int red = random.nextInt(256);
+  int green = random.nextInt(256);
+  int blue = random.nextInt(256);
+
+  // Crea y devuelve un nuevo objeto de la clase Color con los componentes generados aleatoriamente
+  return Color.fromRGBO(red, green, blue, 1.0);
+}
