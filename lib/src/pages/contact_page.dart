@@ -36,7 +36,7 @@ class Contact extends StatelessWidget{
                       color: Colors.white,
                       width: 1
                   ),
-                  color: Colors.grey.shade100
+                  color: const Color.fromRGBO(238, 237, 245, 1.0)
                 ),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.stretch,
